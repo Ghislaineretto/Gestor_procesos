@@ -36,7 +36,6 @@ USE gestion_procesos;
 -- Tabla de Procesos
 
 CREATE TABLE procesos (
-
     id_proceso INT AUTO_INCREMENT PRIMARY KEY,
     
     nombre VARCHAR(45) NOT NULL,
@@ -51,7 +50,6 @@ CREATE TABLE procesos (
 -- Tabla de Usuarios
 
 CREATE TABLE usuarios (
-
     id_usuario INT AUTO_INCREMENT PRIMARY KEY,
     
     nombre VARCHAR(45) NOT NULL,
@@ -64,7 +62,6 @@ CREATE TABLE usuarios (
 -- Tabla de Tareas
 
 CREATE TABLE tareas (
-
     id_tarea INT AUTO_INCREMENT PRIMARY KEY,
     
     nombre VARCHAR(45) NOT NULL,
@@ -77,7 +74,6 @@ CREATE TABLE tareas (
     
     FOREIGN KEY (id_proceso) REFERENCES procesos(id_proceso),
     
-    FOREIGN KEY (id_usuario) REFERENCES usuarios(id_usuario)
-    
+    FOREIGN KEY (id_usuario) REFERENCES usuarios(id_usuario) 
 );
 
