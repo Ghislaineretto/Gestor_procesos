@@ -12,5 +12,6 @@ El objetivo de esta aplicación es permitir la gestión eficiente de procesos de
 *Eliminación segura con confirmación.
 
 #1.3 Diagrama de modelo lógico
+
 <img width="638" height="451" alt="image" src="https://github.com/user-attachments/assets/5cc13705-ec39-4f4d-8f07-c5d6aca2903c" />
 
